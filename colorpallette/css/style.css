@@ -1,0 +1,17 @@
+
+#baslik{
+text-align: center;
+color: #fff;
+background-color: black;
+margin-top: 30px;
+font-size: 40px;
+font-weight: bold;
+}
+.btn{
+    background-color: #fff;
+    border-style: solid ;
+    border-color: black;
+    width: 130px;
+    height: 70px;
+    border-radius: 50px;
+}
