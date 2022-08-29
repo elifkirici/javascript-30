@@ -1,0 +1,53 @@
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+}
+.card {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+
+  -webkit-box-shadow: 20px 15px 48px 1px rgba(168, 168, 168, 0.96);
+  -moz-box-shadow: 20px 15px 48px 1px rgba(168, 168, 168, 0.96);
+  box-shadow: 20px 15px 48px 1px rgba(168, 168, 168, 0.96);
+}
+.job {
+  color: rgb(25, 134, 177);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.name{
+    text-transform: uppercase;
+    font-family: 'Aboreto', cursive;
+    margin-top: 20px;
+}
+h1{
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -50px;
+    margin-top: 10px;
+    font-weight: bold;
+   
+ 
+}
+svg{
+    color: rgb(25, 134, 177) ;
+
+
+}
+
+.menu-text{
+    color: rgb(82, 80, 80);
+    font-size: 15px;
+    margin-bottom: 30px;
+}
