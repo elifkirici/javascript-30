@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>tabs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5cc8b3c13c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="bg-dark text-light">
+    <!--container start-->
+    <div class="container">
+      <!--header start-->
+      <div class="row">
+        <div class="col-12">
+          <div class="header">
+            <h1>Gezi Rehberi</h1>
+            <p>Bu bölümde Hatay hakkında sizlere bilgiler vereceğiz.</p>
+          </div>
+        </div>
+      </div>
+      <!--header end-->
+
+      <div class="container px-4 text-center">
+        <div class="row">
+          <div class="col-6">
+            <div class="p-3 ">
+              <div id="img">
+
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 ">
+              <button type="button " id="tarihi" onclick="tarihifunc()" class="btn1 ">Tarihi</button>
+              <button type="button" id="yemekleri"  onclick="yemeklerifunc()" class="btn2 ">Yemekleri</button>
+              <button type="button" id="gezilecekyerleri" onclick=" gezilecekfunc()" class="btn3 ">
+                Gezilecek Yerleri
+              </button>
+            </div>
+            <div class="aciklama1">
+              <h1 class="baslik">Tarihi</h1>
+              <p class="parag">
+                Hatay Türkiye'nin en önemli eski yerleşim yerlerinden biridir.
+                Yapılan arkeolojik araştırmalarda milattan önce 100.000 ile
+                40.000 yılları arasına tarihlenen bulgulara ulaşılmıştır. İl
+                toprakları ilk Tunç Çağından itibaren Akat Beyliği ve M.Ö.
+                1800-1600 yılları arasında Yamhad Krallığına bağlı bir beyliğin
+                sınırları içerisinde yer almıştır. Daha sonra MÖ 17. yüzyıl
+                sonlarında Hititlerin ve MÖ 1490 yıllarında Mısır'ın
+                egemenliğine girmiştir. Ardından Urartular, Asurlular ve
+                Persler'in egemenliğine girdi.
+              </p>
+              
+            </div>
+            <div class="aciklama2">
+                <h1 class="baslik">Yemekleri</h1>
+                <p class="parag">
+                  Hatay mutfağının dünyada eşi benzeri yok.
+
+                  Zengin tarihi ve kültürel mirasının yanında gastronomi konusunda önemli bir şehir.
+                  
+                  Kentte mezeler hariç sıcak yemek olarak 600'ün üzerinde çeşit var. Sizin için en meşhur 25 tanesini topladık.
+                  
+                  Oruk, köfte, öcce, şıhıl mahşi, tepsi oruğu, aşur, içli köfte, kabak borani, balıkçıl pilavı, tepsi kebabı, lepeç, keşşir pilavı, kıbbıl nane, baharatlar, zahter, zeytin, zeytinyağı, biber çeşitleri...
+                </p>
+                
+              </div>
+              <div class="aciklama3">
+                <h1 class="baslik">Gezilecek Yerleri</h1>
+                <p class="parag">
+                  Hatay ilinin en önemli turizm merkezleri Erzin, Dörtyol, Arsuz ve Samandağ ilçeleridir. Özellikle yaz turizmi ile dikkat çeken Arsuz ve Samandağ ilçeleri sahilleriyle, koylarıyla ve plajlarıyla her yıl yerli ve yabancı turistlerinin akınına uğramaktadırlar. Nüfusları her yıl gelen yerli ve yabancı turist sayısıyla 2 ila 3 kat artmaktadır. Bu bakımdan Arsuz ve Samandağ, Hatay ilinin en önemli turizm merkezleridir. Ayrıca doğa turizmi kapsamında Erzin ve Dörtyol ilçelerinde birçok kaplıca ve yayla bulunmaktadır.
+                </p>
+                
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--container end-->
+
+    <script src="js/add.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
