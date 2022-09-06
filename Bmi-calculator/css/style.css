@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+  background-color: #fdfdfd;
+}
+.main {
+  width: 1200px;
+  height: 500px;
+  background-color: #eaece5;
+  -webkit-box-shadow: 9px 27px 53px 0px rgb(190, 233, 231);
+  -moz-box-shadow: 9px 27px 53px 0px rgb(169, 240, 237);
+  box-shadow: 9px 7px 53px 0px rgb(39, 85, 83);
+  border-radius: 10px;
+
+}
+.bodyImg {
+  height: 400px;
+  margin-right: 600px;
+}
+input{
+    display: flex;
+    width: 350px;
+    margin-top: 30px;
+    height: 50px;
+}
+
+.buttons{
+    margin-top: 30px;
+    
+}
+.bigBox{
+    width: 300px;
+    height: 300px;
+  
+}
+.box{
+    width: 120px;
+    height: 120px;
+
+   
+    font-size: 20px;
+    color: white;
+  
+    
+}
+.divisionResult{
+  color: red;
+  text-align: center;
+margin-top: 50px;
+  font-size: 20px
+
+}
