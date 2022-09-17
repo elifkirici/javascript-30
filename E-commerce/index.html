@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-commerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/5cc8b3c13c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono:wght@300;400;500&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+  
+    
+
+
+    <!--nav start-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light d-flex w-100">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex justify-content-lg-start w-100">
+              <li class="nav-item px-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active" href="#">Pages</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active" href="#">Blog</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active">Shop</a>
+              </li>
+            </ul>
+
+            <a
+              class="navbar-brand d-flex justify-content-lg-center w-100"
+              style="font-size: 35px"
+              href="#"
+              >Shop/Made</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <ul class="navbar-nav w-100 d-flex justify-content-end">
+              <li class="nav-item px-2">
+                <a href="#" class="nav-link"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li class="nav-item px-2">
+                <a href="#" class="nav-link"
+                  ><i class="fa-solid fa-circle-user"></i
+                ></a>
+              </li>
+              <li class="nav-item px-2">
+                <div id="basket"><span id="basket-num">1</span></div>
+                <a href="#" class="nav-link"
+                  ><i class="fa-solid fa-basket-shopping"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--nav end-->
+    
+
+    <div class="container filterInput">
+      <div>
+        <h4>Tüm ÜRÜNLER</h4>
+        <p class="products-length"></p>
+      </div>
+
+      <div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label"> Azalan Fiyat </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckChecked"
+          />
+          <label class="form-check-label"> Artan Fiyat </label>
+        </div>
+      </div>
+    </div>
+
+    <!--middle area-->
+    <div class="container">
+      <div class="row">
+        <div id="showProducts"></div>
+      </div>
+    </div>
+
+    <!--middle area end-->
+
+    <!--footer-->
+    <div class="container mt-5">
+      <nav class="navbar navbar-expand-lg bg-light d-flex w-100">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <span
+              class="navbar-nav d-flex justify-content-lg-start w-100 text-black-50"
+              >@2007 Energety Theme</span
+            >
+
+            <ul class="navbar-nav w-100 d-flex justify-content-end">
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="nav-link"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--footer-->
+    <script src="js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
