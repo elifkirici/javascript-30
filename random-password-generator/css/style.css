@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.passwordArea {
+  width: 380px;
+  height: 500px;
+  background: rgb(63, 5, 60);
+  border-radius: 30px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#inputPassword {
+  display: flex;
+  justify-content: center;
+}
+label {
+  margin-left: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+input {
+  float: right;
+  margin-right: 20px;
+
+}

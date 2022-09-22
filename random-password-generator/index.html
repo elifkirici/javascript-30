@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Random Password Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/5cc8b3c13c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="passwordArea">
+            <h1>Password Generator</h1>
+
+            <div id="inputPassword">
+                <div class="input-group mb-3 w-75">
+                    <input type="text" class="form-control" placeholder="Create Password"
+                        aria-describedby="buttonCopy" id="passwordInput" />
+                    <button class="btn btn-outline-secondary" onclick="copyText()" type="button" id="buttonCopy">
+                        <i class="fa-regular fa-copy"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="passwordGenerator" class="mt-4">
+                <div>
+                    <label for="length">Length</label>
+                    <input type="number" id="length" min="6" max="20" value="6" />
+                </div>
+
+                <div>
+                    <label for="symbol">Include Symbol</label>
+                    <input type="checkbox" id="symbol" />
+                </div>
+                <div>
+                    <label for="number">Include Number</label>
+                    <input type="checkbox"  id="number" />
+                </div>
+                <div>
+                    <label for="lowerCase">Include lowerCase</label>
+                    <input type="checkbox" id="lowerCase" />
+                </div>
+                <div>
+                    <label for="upperCase">Include upperCase</label>
+                    <input type="checkbox"  id="upperCase" />
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <button class="btn btn-secondary" onclick="createPassword()">
+                    Get Random Password
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
