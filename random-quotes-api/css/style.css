@@ -1,0 +1,39 @@
+body {
+  background: rgb(248, 255, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 255, 254, 1) 0%,
+    rgba(182, 51, 65, 0.4430147058823529) 33%,
+    rgba(77, 58, 113, 1) 100%
+  );
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  flex-direction: column;
+  width: 600px;
+  height: 200px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: baseline;
+  border: 2px solid rebeccapurple;
+  padding: 30px;
+  position: relative;
+  background: #fff;
+  -webkit-border-top-left-radius: 50px;
+  -webkit-border-bottom-right-radius: 50px;
+  -moz-border-radius-topleft: 50px;
+  -moz-border-radius-bottomright: 50px;
+}
+.buttons {
+  position: absolute;
+  bottom: 5%;
+}
